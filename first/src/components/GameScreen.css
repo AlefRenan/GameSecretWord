@@ -72,7 +72,7 @@
     padding: 1rem;
     display: flex;
     border: 10px solid rgb(0, 255, 13);
-    max-width: 95%;
+    max-width: 70%;
     min-width: 50%;
     overflow: hidden;
   }
