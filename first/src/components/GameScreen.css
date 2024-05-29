@@ -68,7 +68,7 @@
   }
   .game {
     width: fit-content;
-    margin-left: 50px;
+    margin-left: 50%;
     margin: 1rem ;
     padding: 1rem;
     display: flex;
