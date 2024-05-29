@@ -6,7 +6,7 @@ import EndScreen from "./components/EndScreen";
 import { wordsList } from "./components/Words";
 
 const App = () => {
-  const guessesQty = 10;
+  const guessesQty = 3;
   //Criação da Dica e da Palavra
   const [pickedWord, setPickedWord] = useState("");
   const [pickedCategory, setPickedCategory] = useState("");
@@ -121,14 +121,12 @@ const App = () => {
           score={score}
         />
       ) : (
-        <>{end ? <EndScreen score={ponto} /> : <HomeScreen />}</>
-      )}
-      {play ? (
-        <h1></h1>
-      ) : (
-        <button className="buttonStart" type="submit" onClick={handlePlay}>
-          COMEÇAR JOGO
-        </button>
+        <>
+          {end ? <EndScreen score={ponto} /> : <HomeScreen />}
+          <button className="buttonStart" type="submit" onClick={handlePlay}>
+            COMEÇAR JOGO
+          </button>
+        </>
       )}
     </>
   );

@@ -18,3 +18,19 @@ h2 {
 h2 > span {
   color: rgb(0, 81, 255);
 }
+@media (min-width: 250px) and (max-width: 1024px) {
+  :root {
+    background-image: url(./assets/Espaço.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+  h1 {
+    font-size: 40px;
+    font-family: Jersey;
+  }
+  h2 > span {
+    color: rgb(0, 255, 13);
+  }
+}

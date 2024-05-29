@@ -13,6 +13,7 @@
 }
 .buttonStart {
   margin-top: 10px;
+  margin-left: 45px;
   border-radius: 25px;
   padding: 15px;
   color: black;
@@ -27,4 +28,27 @@
 .buttonStart:hover {
   cursor: pointer;
   background-color: rgb(0, 81, 255);
+}
+@media (min-width: 250px) and (max-width: 768px) {
+  .buttonStart {
+    margin-top: 10px;
+    margin-left: 45px;
+    border-radius: 25px;
+    padding: 15px;
+    color: black;
+    background-color: rgb(0, 255, 13);
+    border: 1px solid white;
+    width: 13rem;
+    font-weight: 800;
+    font-family: Jersey;
+    font-size: 25px;
+  }
+
+  .buttonStart:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 13);
+  }
+  #root {
+    padding: 0;
+  }
 }

@@ -59,7 +59,7 @@ const GameScreen = ({
       <p>
         Letras já utilizadas:
         {wrongLetters.map((letter, i) => (
-          <span key={i}>{letter} , </span>
+          <span key={i}> {letter} , </span>
         ))}
       </p>
     </>
